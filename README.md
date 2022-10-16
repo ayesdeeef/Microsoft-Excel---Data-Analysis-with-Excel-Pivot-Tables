@@ -23,4 +23,4 @@ Part 4: I removed 'Film Rating' from the view by dragging it from the fields lis
 
 Part 5: I added another Gross Revenue column using two trailing spaces to differentiate it from both existing labels. For this column, I added data bars using the Conditional Formatting option in the Home tab once again. I also used a custom number format with three semicolons to make the text invisible for this third column so that the data bars would be easier to read. The data bars visually show me that the second highest grossing genre is Comedy, as can be seen by the data bar in Cell C12.
 
-HOMEWORK: Sorting, Filtering & Grouping Data with Excel Pivot Tables
+# HOMEWORK: Sorting, Filtering & Grouping Data with Excel Pivot Tables
