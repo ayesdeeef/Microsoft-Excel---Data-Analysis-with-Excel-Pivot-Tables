@@ -31,3 +31,5 @@ Question 2: I clicked on the drop down menu next to the Title category in the pi
 Question 3: I chose the same drop down menu and selected Clear Filter to get rid of my label filter. Then, I added a value filter for gross revenue between 1000000 and 3000000. Cells A8 to A58 show me that there were 51 films released in these four years with gross revenues between $1,000,000 and $3,000,000.
 
 Question 4: In the PivotTable options, Layout field, I checked "Allow multiple filters per field" in order to be able to use a label and a value filter simultaneously. Then, I used the drop down to add a label filter for movies starting with 'm'. This returned a view with five movies, as can be seen from cells A8 to A12.
+
+Question 5: I changed the Begins With value for label filter to 'm*s' to find titles that begin with 'm' and contain 's'. The titles returned, as can be seen in Cells A8 and A9, were 'Miss Potter' and 'Me and Orson Welles'.
