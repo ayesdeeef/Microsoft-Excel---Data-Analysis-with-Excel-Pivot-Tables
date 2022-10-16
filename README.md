@@ -12,7 +12,7 @@ Part 4: I removed the 'Country' field, made 'Genre' the primary row label, and a
 
 Part 5: I added a row to the end of the IMDb Database for a movie titled 'Cool New Movie'. Then, I used the 'Change Data Source' option to update the pivot by changing the ending row in the data location to be one higher. After doing this, filtering on 'Title' is 'Cool New Movie' with the value of 'Count of Title' gives the result 1 in Cell A8, showing that there is indeed now a movie with my created name in the data source for the active pivot table.
 
-# Homework 2
+# Homework 2: Excel Pivot Table Formatting
 Part 1: I added 'Budget' and 'Gross Revenue' to the values field, with 'Budget' first. I added 'Title' to the rows field. I reformatted the columns as dollar currencies with zero decimal places using the 'Number Format' option. In this view, Cell B109 shows that the budget for the film 'A Passage to India' was $16,000,000.
 
 Part 2: I made a new table with 'Genre' in the rows field, 'Rating' in the columns field, and 'Sum of Gross Revenue' in the values field. In this view, I can see that the empty cells are already populated with '$0'. However, if they were not, I would right click on any cell and go to 'Pivot Table Options', where I would change 'Empty cells as: ' to edit this property.
@@ -23,4 +23,5 @@ Part 4: I removed 'Film Rating' from the view by dragging it from the fields lis
 
 Part 5: I added another Gross Revenue column using two trailing spaces to differentiate it from both existing labels. For this column, I added data bars using the Conditional Formatting option in the Home tab once again. I also used a custom number format with three semicolons to make the text invisible for this third column so that the data bars would be easier to read. The data bars visually show me that the second highest grossing genre is Comedy, as can be seen by the data bar in Cell C12.
 
-# HOMEWORK: Sorting, Filtering & Grouping Data with Excel Pivot Tables
+# Homework 3: Sorting, Filtering & Grouping Data with Excel Pivot Tables
+I put Title in the Rows and Gross Revenue in the values. Then, I put Release Date in the rows. To get a Years label, I selected the Release Data category, and chose the Group Selection option in the Group Selection drop down. Here, I used command click to select Days, Months, Quarters, and Years simultaneously. Then, I dragged Release Data, Months, and Quarters out of the rows, and dragged Years to the filters. There, I unselected all and then selected 2005, 2006, 2007, and 2008. Then, I selected the first value for Gross Revenue, in Cell B8. Then, I selected Custom Sort in Sort & Filter in the Home tab, chose Descending, and pressed Ok. This allowed me to see in Cell B8 that the highest grossing film out of the films released in the years 2005, 2006, 2007, and 2008 was 'The Dark Knight'.
