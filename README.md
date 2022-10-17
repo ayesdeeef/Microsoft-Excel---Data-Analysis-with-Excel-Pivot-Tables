@@ -33,3 +33,6 @@ Question 3: I chose the same drop down menu and selected Clear Filter to get rid
 Question 4: In the PivotTable options, Layout field, I checked "Allow multiple filters per field" in order to be able to use a label and a value filter simultaneously. Then, I used the drop down to add a label filter for movies starting with 'm'. This returned a view with five movies, as can be seen from cells A8 to A12.
 
 Question 5: I changed the Begins With value for label filter to 'm*s' to find titles that begin with 'm' and contain 's'. The titles returned, as can be seen in Cells A8 and A9, were 'Miss Potter' and 'Me and Orson Welles'.
+
+#HOMEWORK 4: Enriching Data with Pivot Table Calculated Values & Fields
+Question 1: I created a view with IMDb score by Title. From this view, we can see that the IMDb score does indeed range from 1 to 10 for individual titles. However, when I replace Title with Genre, the IMDb scores no longer fall within this range. To fix this, I right clicked the Sum of IMDb Score (1-10) column, and chose Average within the Summarize Values By column.
