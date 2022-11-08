@@ -36,3 +36,7 @@ Question 5: I changed the Begins With value for label filter to 'm*s' to find ti
 
 # HOMEWORK 4: Enriching Data with Pivot Table Calculated Values & Fields
 Question 1: I created a view with IMDb score by Title. From this view, we can see that the IMDb score does indeed range from 1 to 10 for individual titles. However, when I replace Title with Genre, the IMDb scores no longer fall within this range. To fix this, I right clicked the Sum of IMDb Score (1-10) column, and chose Average within the Summarize Values By column.
+
+Question 2: I added Year as a secondary row label. Then, I added a second instance of IMDb score (1-10) and set the summarization mode to average again. Then, I right-clicked the column again and set the Show Values As option to Rank from Largest to Smallest. This view allows me to quickly see that with a rank of 1, the year 2013 saw the highest-rated Biography films on average, while with a rank of 4, the year 2011 saw the lowest-rated Biography films on average.
+
+Question 3: 
