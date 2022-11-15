@@ -39,4 +39,4 @@ Question 1: I created a view with IMDb score by Title. From this view, we can se
 
 Question 2: I added Year as a secondary row label. Then, I added a second instance of IMDb score (1-10) and set the summarization mode to average again. Then, I right-clicked the column again and set the Show Values As option to Rank from Largest to Smallest. This view allows me to quickly see that with a rank of 1, the year 2013 saw the highest-rated Biography films on average, while with a rank of 4, the year 2011 saw the lowest-rated Biography films on average.
 
-Question 3: 
+Question 3: I added another column for Sum of Gross Revenue by checking Gross Revenue in the field list. Then, I used the show values as option for % difference from, chose previous as the base item, and chose year as the base field, so that the value in each field is the change from year to year given as a percent for that genre. From this view, I can see in Cell E13 that gross revenue for action movies in 2014 was 57.1% greater than in 2013.
