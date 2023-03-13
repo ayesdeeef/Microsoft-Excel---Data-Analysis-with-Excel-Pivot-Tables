@@ -44,3 +44,17 @@ Question 3: I added another column for Sum of Gross Revenue by checking Gross Re
 Question 4: I replaced genre and year in the rows with title. Then, I selected one of the existing column labels and chose insert and insert calculated field from the toolbar at the top. I named it Profit and set the formula to be Gross Revenue minus Budget by double clicking fields from the list and typing in the operations. Then, I used the same process to add a field called Profit Margin for Profit divided by gross revenue. Then, I added these two new fields to the values by checking them, and I removed all the values besides these two calculated fields. I right clicked the sum of profit margin column label, chose sort and sorted by largest to smallest to quickly show that the Title with the strongest Profit Margin in the entire sample accross all years was 'Paranormal Activity'.
 
 Question 5: I inserted a calculated field, called it 'Cast + Director Likes', and used the formula 'Cast FB Likes + Director FB Likes'. Then, I inserted another calculated field, called it 'Cast + Director Likes per Title', and used the formula 'Cast + Director Likes / Number of Titles'. Since 'Number of Titles' is a count of the number of titles in a group, when I put 'Genre' in Rows, it divides by the number of titles of that genre to give me an average per title. Then, I removed both fields using the right click drop downs, inserted the 'Cast FB Likes' and 'Director FB Likes' fields by dragging them to values, changed the summarization type for those to average in the right click drop down, and finally readded 'Cast + Director Likes per Title' by dragging it to Values, which showed that indeed, the fields are working correctly because the 'Cast + Director Likes per Title' for each category is equal to the average number of cast likes plus the average number of director likes within that category.
+
+Homework 5: Visualizing Data with Excel Pivot Charts
+
+1. Create a view to show # of Titles by Country, excluding the USA, for the entire sample. Name the PivotTable "Titles by Country", then use a PivotChart to visualize this view as a Clustered Column Chart.
+
+2. Hide the Field Buttons from the PivotChart, then apply a value filter to only show the top 10 countries by # of Titles (hint: you may need to enable multiple filters). Which country is #2?
+
+3. Change the chart type to a Clustered Bar, and change the PivotTable sorting to ascending by # of Titles.
+
+4. Pull in IMDb Score as a second series, and summarize values by Average. Change your PivotChart type to Combo, with # of Titles as a Clustered Column and IMDb Score as a Line with Markers, on the Secondary Axis. Which of the 10 countries generated the lowest average IMDb Scores? (Bonus: Format the IMDb series in the chart to only show the markers, with no line)
+
+5. Copy the existing pivot and create a second view below the combo chart to show Budget by Genre, with a Top 5 filter applied. Name the table "Budget by Genre", then visualize this view with a Pie chart, with hidden field buttons.
+
+6. Insert a Slicer for Genre, enable multi-select, then connect it to both PivotTables. Create a simple dashboard by hiding the columns of your raw PivotTable views, disabling gridlines, and aligning/formatting the PivotCharts and Slicer as you see fit. Practice adjusting slicer selections to see how the dashboard updates!
