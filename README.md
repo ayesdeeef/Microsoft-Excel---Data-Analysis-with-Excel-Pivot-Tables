@@ -45,7 +45,7 @@ Question 4: I replaced genre and year in the rows with title. Then, I selected o
 
 Question 5: I inserted a calculated field, called it 'Cast + Director Likes', and used the formula 'Cast FB Likes + Director FB Likes'. Then, I inserted another calculated field, called it 'Cast + Director Likes per Title', and used the formula 'Cast + Director Likes / Number of Titles'. Since 'Number of Titles' is a count of the number of titles in a group, when I put 'Genre' in Rows, it divides by the number of titles of that genre to give me an average per title. Then, I removed both fields using the right click drop downs, inserted the 'Cast FB Likes' and 'Director FB Likes' fields by dragging them to values, changed the summarization type for those to average in the right click drop down, and finally readded 'Cast + Director Likes per Title' by dragging it to Values, which showed that indeed, the fields are working correctly because the 'Cast + Director Likes per Title' for each category is equal to the average number of cast likes plus the average number of director likes within that category.
 
-Homework 5: Visualizing Data with Excel Pivot Charts
+# Homework 5: Visualizing Data with Excel Pivot Charts
 
 1. Create a view to show # of Titles by Country, excluding the USA, for the entire sample. Name the PivotTable "Titles by Country", then use a PivotChart to visualize this view as a Clustered Column Chart.
 
@@ -58,3 +58,15 @@ Homework 5: Visualizing Data with Excel Pivot Charts
 5. Copy the existing pivot and create a second view below the combo chart to show Budget by Genre, with a Top 5 filter applied. Name the table "Budget by Genre", then visualize this view with a Pie chart, with hidden field buttons.
 
 6. Insert a Slicer for Genre, enable multi-select, then connect it to both PivotTables. Create a simple dashboard by hiding the columns of your raw PivotTable views, disabling gridlines, and aligning/formatting the PivotCharts and Slicer as you see fit. Practice adjusting slicer selections to see how the dashboard updates!
+
+# HOMEWORK: Analyzing U.S. Voter Demographics
+
+1. How many states had a Voter Population % below 55%? Which states?
+
+2. How many confirmed voters in California were over 65 years old in 2012? What percentage does that represent out of the total confirmed voters in California? What percentage out of the confirmed voters in the entire country?
+
+3. Show both Citizen Population and Confirmed Voters by Age, as % of Column Total. What percentage of the citizen population do 45 to 64 year olds represent? What percentage of the confirmed voter population?
+
+4. Create a new calculated field named "Voter Turnout" (Confirmed Voters/Registered Voters), formatted as a percentage with 2 decimal points. Which state had the highest voter turnout rate? What about among 18-24 year old voters specifically?
+
+5. As a politician seeking to improve voter turnout rates among young adults (18-24), which particular states would you target first?
